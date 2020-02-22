@@ -1,0 +1,201 @@
+*{
+	font-family: 'Bad Script', cursive;
+	color: Fuchsia;	
+}
+
+div {
+
+/*background-color:rgba(0, 0, 0, 0);*/
+transition-property: background-color;
+transition-duration: 1.2s;
+transition-delay: 0ms;
+}
+
+
+
+#shapka{
+	position: fixed;
+	/*background-color: rgba(0, 0, 0, 0);*/
+	width: 100%;
+	height: 80px;
+	top: 0;
+	padding: 0 16px;
+	margin-left: -10px;
+	z-index: 100;
+	/*background-image: url(../ARK/img/3.jpg);*/
+	/*background-attachment: fixed;*/
+}
+
+/*#shapka:hover {
+	background-color: Gold;
+}*/
+
+#osnova{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 80px;	
+	/*background-image: url(../ARK/img/3.jpg);*/
+	/*background-attachment: fixed;*/
+}
+
+/*#osnova:hover {
+background-color: SpringGreen;
+
+}*/
+
+#poisk{
+	position: fixed;
+	width: 45%;
+	height: 40px;
+}
+#poisk-vvod{
+	position: fixed;
+	width: 23%;
+	height: 26px;
+}
+#poisk-knopka{
+	position: fixed;
+	width: 7%;
+	height: 32px;
+	left:455px;
+}
+#vk{
+	position: fixed;
+	left: 1400px;
+	top:6px;
+}
+
+#vk-link{
+	text-decoration: none;
+}
+
+#vk-link:visited{
+	color: black;
+}
+
+#vk-link:link{
+	color: black;
+}
+
+#vk-link:hover{
+	color: black;
+	font-size: 20px;
+}
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: Fuchsia;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	/*
+	transition-property: background-color;
+	transition-duration: 2s;*/
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+	left: 1810px;
+	/*-color: #69C1DC;
+	transition-property: background-color;
+	transition-duration: 2s;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+   /* background-color: inherit;*/
+    min-width: 200px;
+    z-index: 1;
+    /*transition-property: background-color;
+	transition-duration: 2s;*/
+}
+
+.dropdown-content a {
+    color: Fuchsia;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	/*background-color: inherit;*/
+    /*transition-property: background-color;
+	transition-duration: 2s;
+	*/
+}
+
+.dropdown-content a:hover {
+		/*background-color: Fuchsia;*/
+}
+
+.dropdown:hover .dropdown-content {
+		display: block;
+		/*background-color: Fuchsia;*/
+
+		
+		}
+.dropdown:hover .dropbtn {
+		/*background-color: Fuchsia;*/
+}	
+
+
+.body_slides{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:-2; 
+    background:#69C1DC;}
+.body_slides,
+.body_slides:after{
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;}
+.body_slides:after { 
+    content: '';
+    background: transparent url(ARK/img/2.jpg) repeat top left;}
+ .body_slides li{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-repeat:none;
+    opacity:0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+.body_slides li:nth-child(1){
+	background-image: url(../ARK/img/2.jpg); 
+}
+.body_slides li:nth-child(2){
+	-webkit-animation-delay: 6.0s;
+	-moz-animation-delay: 6.0s;
+	background-image: url(../ARK/img/3.jpg); 
+}
+.body_slides li:nth-child(3){
+	-webkit-animation-delay: 12.0s;
+	-moz-animation-delay: 12.0s;
+	background-image: url(../ARK/img/6.jpg); 
+}
+
+
+
+
+@keyframes anim_slides {
+	0% {opacity:0;}
+	6% {opacity:1;}
+	35% {opacity:1;}
+	40% {opacity:0;}
+	100% {opacity:0;}
+}
+
+
+
+
+	
+	
